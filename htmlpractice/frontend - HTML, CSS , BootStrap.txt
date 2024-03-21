@@ -1,0 +1,3 @@
+frontend - HTML, CSS , BootStrap
+backend - PHP,
+database - mySQL

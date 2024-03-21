@@ -1,0 +1,30 @@
+### CREATION OF DATABASE : -(RUN COMMAND  INSIDE THE DATABASE SERVER)
+--> create database database_name(gce)
+
+### CREATION OF TABLE IN DATABASE : -(RUN COMMAND  INSIDE THE DATABASE)
+create table student(
+id int NOT NULL AUTO_INCREMENT,
+name varchar(200),
+mobile varchar(100),
+email varchar(200),
+password varchar(200),
+PRIMARY KEY(id));
+
+### INSERTION DATA INTO TABLE : - (RUN COMMAND  INSIDE THE TABLE)
+INSERT INTO student(name, mobile, email, password)
+--> values('raj','9142364660', 'raj123@gmail.com', '12445');
+
+### SHOWING ALL THE DATA OF TABLES : -(RUN COMMAND  INSIDE THE TABLE)
+--> SELECT * FROM `student`
+
+### FOR SPECIFIC COLUMN : -(RUN COMMAND  INSIDE THE TABLE)
+--> SELECT * FROM `student` WHERE email='raj123@gmail.com'
+--> select * from student where branch='cse';
+--> select * from student where email='raj123@gmail.com' && password='123';
+
+###  DELETE RECORD FROM TABLE : -(RUN COMMAND  INSIDE THE TABLE)
+--> delete from student where id='1';
+
+### EDIT OR UPDATE NAME OF RECORD : -(RUN COMMAND  INSIDE THE TABLE)
+--> update student SET name='rajnish' where id='2';
+--> update student SET name='rajnish',mobile='9142364660' where id='2';

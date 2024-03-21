@@ -1,0 +1,23 @@
+CRUD -
+C - Create
+R - Read / Retrive
+U - Update
+D - Delete
+
+CSS - Casacading Stylesheets 
+
+css is having three parts 
+1. inline css
+2. internal css 
+3. external css
+
+
+# There are 4 types of Selectors : 
+1. * - universal Selectors
+2. id - 
+    -> it should be denoted by #.
+    -> if you have used one time then second time you can't use that id.
+3. class - 
+    -> it is denoted as . (dot)
+    
+4. tag
